@@ -1,4 +1,4 @@
-package com.example.studypattern.factory;
+package com.example.studypattern.simplefactory;
 
 /**
  * Created by Administrator on 2018/4/4.

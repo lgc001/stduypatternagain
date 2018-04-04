@@ -6,12 +6,24 @@ package com.example.studypattern.simplefactory;
 public class Program {
     public static void main(String[] args)
     {
-        ISimple simple =Factory.creator(1);
-        System.out.println(simple.show());
+        ShapeFactory shapeFactory=new ShapeFactory();
 
-        System.out.println("--------");
+        //获取 Circle 的对象，并调用它的 draw 方法
+        IShape shape1 = shapeFactory.getShape("CIRCLE");
 
-        simple =Factory.creator(2);
-        System.out.println(simple.show());
+        //调用 Circle 的 draw 方法
+        shape1.draw();
+
+        //获取 Rectangle 的对象，并调用它的 draw 方法
+        IShape shape2 = shapeFactory.getShape("RECTANGLE");
+
+        //调用 Rectangle 的 draw 方法
+        shape2.draw();
+
+        //获取 Square 的对象，并调用它的 draw 方法
+        IShape shape3 = shapeFactory.getShape("SQUARE");
+
+        //调用 Square 的 draw 方法
+        shape3.draw();
     }
 }
