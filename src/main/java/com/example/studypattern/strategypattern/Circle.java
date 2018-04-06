@@ -1,4 +1,4 @@
-package com.example.studypattern.simplefactory;
+package com.example.studypattern.strategypattern;
 
 /**
  * Created by Administrator on 2018/4/4.
@@ -6,6 +6,6 @@ package com.example.studypattern.simplefactory;
 public class Circle implements IShape {
     @Override
     public void draw() {
-        System.out.println("simpleFactory-- Inside Circle::draw() method.");
+        System.out.println("stategyPattern-- Inside Circle::draw() method.");
     }
 }

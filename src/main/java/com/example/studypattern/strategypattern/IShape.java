@@ -1,11 +1,8 @@
-package com.example.studypattern.simplefactory;
+package com.example.studypattern.strategypattern;
 
 /**
  * Created by Administrator on 2018/4/4.
  */
 public interface IShape {
-    /**
-     * 画
-     */
     void draw();
 }

@@ -1,4 +1,4 @@
-package com.example.studypattern.simplefactory;
+package com.example.studypattern.strategypattern;
 
 /**
  * Created by Administrator on 2018/4/4.
@@ -6,6 +6,6 @@ package com.example.studypattern.simplefactory;
 public class Square implements IShape {
     @Override
     public void draw() {
-        System.out.println("simpleFactory-- Inside Square::draw() method.");
+        System.out.println("stategyPattern-- Inside Square::draw() method.");
     }
 }
