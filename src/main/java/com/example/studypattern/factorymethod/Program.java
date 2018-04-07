@@ -1,9 +1,9 @@
-package com.example.studypattern.factoryMethod;
+package com.example.studypattern.factorymethod;
 
-import com.example.studypattern.factoryMethod.factory.CircleFactory;
-import com.example.studypattern.factoryMethod.factory.IShapeFactory;
-import com.example.studypattern.factoryMethod.factory.RectangleFactory;
-import com.example.studypattern.factoryMethod.factory.SquareFactory;
+import com.example.studypattern.factorymethod.factory.CircleFactory;
+import com.example.studypattern.factorymethod.factory.IShapeFactory;
+import com.example.studypattern.factorymethod.factory.RectangleFactory;
+import com.example.studypattern.factorymethod.factory.SquareFactory;
 
 /**
  * Created by Administrator on 2018/4/4.

@@ -1,4 +1,4 @@
-package com.example.studypattern.factoryMethod;
+package com.example.studypattern.factorymethod;
 
 /**
  * Created by Administrator on 2018/4/4.
@@ -6,6 +6,6 @@ package com.example.studypattern.factoryMethod;
 public class Circle implements IShape {
     @Override
     public void draw() {
-        System.out.println("factoryMethod. Inside Circle::draw() method.");
+        System.out.println("factorymethod. Inside Circle::draw() method.");
     }
 }

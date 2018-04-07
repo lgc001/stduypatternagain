@@ -1,4 +1,4 @@
-package com.example.studypattern.factoryMethod;
+package com.example.studypattern.factorymethod;
 
 /**
  * 也可是抽

@@ -1,7 +1,7 @@
-package com.example.studypattern.factoryMethod.factory;
+package com.example.studypattern.factorymethod.factory;
 
-import com.example.studypattern.factoryMethod.IShape;
-import com.example.studypattern.factoryMethod.Rectangle;
+import com.example.studypattern.factorymethod.IShape;
+import com.example.studypattern.factorymethod.Rectangle;
 
 /**
  * Created by Administrator on 2018/4/4.
