@@ -12,7 +12,8 @@ public class Program {
     public static void main(String[] args)
     {
         //获取 Circle 的对象，并调用它的 draw 方法
-        draw(new CircleFactory());
+        IShapeFactory shapeFactory = new CircleFactory();
+        draw(shapeFactory);
 
         //获取 Rectangle 的对象，并调用它的 draw 方法
         draw(new RectangleFactory());

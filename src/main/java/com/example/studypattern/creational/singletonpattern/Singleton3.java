@@ -8,7 +8,7 @@ package com.example.studypattern.creational.singletonpattern;
  */
 public class Singleton3 {
     private static class SingletonHolder{
-        public static Singleton3 instance=new Singleton3();
+        private static Singleton3 instance=new Singleton3(); //内部类的private，在外部可以访问
     }
 
     private Singleton3(){}

@@ -3,3 +3,4 @@ Java中单例(Singleton1)模式是一种广泛使用的设计模式。
 用于线程池、缓存、对话框、日志对象等
 
 推荐使用Singleton2
+我个人觉得singleton3更好
