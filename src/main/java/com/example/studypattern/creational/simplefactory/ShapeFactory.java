@@ -4,7 +4,7 @@ package com.example.studypattern.creational.simplefactory;
  * Created by Administrator on 2018/4/4.
  */
 public class ShapeFactory {
-    public IShape getShape(String shapeType) {
+    public static IShape getShape(String shapeType) {
         if (shapeType == null) {
             return null;
         }

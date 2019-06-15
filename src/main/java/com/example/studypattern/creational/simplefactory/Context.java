@@ -8,9 +8,7 @@ public class Context {
 
     public Context(String type)
     {
-        ShapeFactory shapeFactory=new ShapeFactory();
-
-        this.strategy=shapeFactory.getShape(type);
+        this.strategy=ShapeFactory.getShape(type);
     }
 
     public void draw()
