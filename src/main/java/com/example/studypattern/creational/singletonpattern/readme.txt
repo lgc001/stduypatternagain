@@ -4,3 +4,4 @@ Java中单例(Singleton1)模式是一种广泛使用的设计模式。
 
 推荐使用Singleton2
 我个人觉得singleton3更好
+Singleton4是最完美的
